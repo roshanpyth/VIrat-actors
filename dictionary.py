@@ -4,7 +4,7 @@ games={
     'wrestling': "Wrestling is sports entertainment and is very aggresive, a well known wrestler is the Great Khali" ,
 
 }
-
+"""
 #print (games)
 user=input("Please enter game name!!!")
 #this will print the user input
@@ -19,10 +19,23 @@ print (games)
 # c) Change the descriptio of cricket in the abive dictionary.
 games["cricket"]="The best player in cricket is Surya-Kumar-Yadav"
 print (games)
-
+"""
 #sorting
 game=[]
 for user in games: 
     game.append(user)
 game.sort()
-print(game)
+print (game)
+print (game)
+#if you want to reverse list use the function (reverse)
+game.reverse()
+print (game)
+
+#print all keys print
+
+print(games.keys())
+#print all values 
+print(games.values())
+#delete a key value pair
+del games["football"]
+print (games)
